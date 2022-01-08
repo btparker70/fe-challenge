@@ -1,0 +1,17 @@
+body{
+  background: url("design/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./design/roboto/Roboto-Bold.ttf");
+  font-style: bold;
+}

@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width-device-width,initial-scale-1">
   <meta charset="utf-8">
-  <title>Fe Challenge</title>
-  <meta content="width-device-width, initial-scale-1" name="viewport">
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="">
+  <meta name="description" content="Thesis Website Challenge">
+  <title>Thesis Challenge</title>
+  <link rel="stylesheet" type="text/css" href="style.css" >
+  <link rel="stylesheet" type="text/css" href="./styles/navbar.css" >
 </head>
 <body>
+<header>
+  <div class="navbar">
+    <div class="navbar-links">
+      <div class="navbar-links_logo">
+        <h1><a href="#home">Stamp</a></h1>
+      </div>
+      <div class="navbar-links_container">
+        <p><a href="#about">About</a></p>
+        <p><a href="#integrations">Integrations</a></p>
+        <p><a href="#Pricing">Pricing</a></p>
+        <p><a href="#contacts">Contacts</a></p>
+      </div>
+      <div class='navbar-menu_icon' onclick="menuToggle(this)">
+        <div class="navbar-menu_element1"></div>
+        <div class="navbar-menu_element2"></div>
+        <div class="navbar-menu_element3"></div>
+        <div class="navbar-menu_container">
+          <div class="navbar-menu_container-links">
+            <p><a href="#about">About</a></p>
+            <p><a href="#integrations">Integrations</a></p>
+            <p><a href="#Pricing">Pricing</a></p>
+            <p><a href="#contacts">Contacts</a></p>
+          </div>
+        </div>
+      </div>
 
+    </div>
+
+  </div>
+</header>
+
+<script>
+  function menuToggle(icon) {
+    icon.classList.toggle("change");
+    const menu = document.getElementsByClassName("navbar-menu_container")[0];
+    menu.classList.toggle("show");
+  }
+</script>
 
 </body>
 </html>
