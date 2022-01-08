@@ -1,12 +1,12 @@
 .hero {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
   width: 555px;
   height: 347px;
   left: 150px;
-  top: 277px;
+  top: 277px; */
 }
 
 .hero h1 {
