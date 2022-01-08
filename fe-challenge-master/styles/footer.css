@@ -1,0 +1,20 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 6vh 0 6vh;
+}
+
+.copyright{
+}
+
+.footer-links_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-links_container p {
+  font-size: 12px;
+  padding: 0 1rem 0 1rem;
+}

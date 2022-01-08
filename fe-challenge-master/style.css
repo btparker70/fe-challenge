@@ -1,5 +1,12 @@
 body{
+  min-height: 100vh;
+  margin: 0;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
   background: url("design/background.png");
+ 
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
