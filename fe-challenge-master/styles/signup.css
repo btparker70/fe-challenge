@@ -1,4 +1,7 @@
 .signup_container{
+  max-width: 460px;
+  max-height: 366px;
+  background-color: teal;
   display: flex;
   flex-direction: column;
 
