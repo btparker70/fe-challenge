@@ -52,14 +52,15 @@
     <div class="signup_title">
       <p>SIGN UP FOR FREE</p>
     </div>
-    <form class="signup_form" method="post">
-      <input type="text" id="form-name" name="form-name" placeholder="Name">
-      <input type="email" id="form-email" name="form-email" placeholder="E-mail">
-      <input type="password" id="form-password" name="form-password" placeholder="Password">
-      <button type="button">Sign up ></button>
+    <form class="signup_form" method="post" id="frmSignup" enctype="multipart/form-data">
+      <input type="text" id="form-name" name="name" placeholder="Name">
+      <input type="email" id="form-email" name="email" placeholder="E-mail">
+      <input type="password" id="form-password" name="password" placeholder="Password">
+      <button id="submitSignup" type="button" onclick="signUp()" >Sign up ></button>
     </form>
     <div class="signup_terms">
-      <p>By clicking "Sign up" I agree to out Terms of Service</p>
+      <p>By clicking "Sign up" I agree to out</p>
+      <p><a>Terms of Service</a></p>
     </div>
   </div>
 </main>
@@ -77,11 +78,15 @@
 
 </footer>
 
-<script>
+<script type="text/javascript">
   function menuToggle(icon) {
     icon.classList.toggle("change");
     const menu = document.getElementsByClassName("navbar-menu_container")[0];
     menu.classList.toggle("show");
+  }
+
+  function signUp() {
+      document.getElementById("frmSignup").submit();  
   }
 </script>
 

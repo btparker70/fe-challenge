@@ -6,14 +6,13 @@ body{
   grid-template-rows: auto 1fr auto;
 
   background: url("design/background.png");
- 
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("design/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }
 
 main {
-  background-color: pink;
   display: flex;
   justify-content: space-around;
   align-items: center;
