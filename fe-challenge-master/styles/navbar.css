@@ -8,8 +8,8 @@
 }
 
 .change .navbar-menu_element1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
+  -webkit-transform: rotate(-45deg) translate(-3px, 2px);
+  transform: rotate(-45deg) translate(-3px, 2px);
 }
 
 .change .navbar-menu_element2 {opacity: 0;}
@@ -42,7 +42,7 @@
 }
 
 .navbar-links_logo p {
-  font-family: "Roboto";
+  font-family: "Roboto-Bold";
   font-size: 26px;
 }
 
@@ -53,8 +53,8 @@
 
 .navbar-links_container p,
 .navbar-menu_icon p {
+  font-family: "Roboto-Medium";
   color: #fff;
-  font-family: var("Roboto");
   font-weight: 500;
   font-size: 18px;
   text-transform: capitalize;
@@ -70,7 +70,7 @@
   flex-direction: column;
 
   text-align: end;
-  background-color: #411c00;
+  
   background-image: linear-gradient(62deg, #411c00 0%, #1a0a06 100%);
   padding: 1.5rem;
   position: absolute;

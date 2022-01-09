@@ -4,7 +4,7 @@ body{
 
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("design/background.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("design/background.png");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -23,7 +23,36 @@ a {
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-Bold";
   src: url("./design/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("./design/roboto/Roboto-Regular.ttf");
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("./design/roboto/Roboto-Thin.ttf");
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("./design/roboto/Roboto-Medium.ttf");
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url("./design/roboto/Roboto-Italic.ttf");
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url("./design/roboto/Roboto-LightItalic.ttf");
   font-style: bold;
 }

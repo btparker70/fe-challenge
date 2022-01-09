@@ -1,9 +1,6 @@
 .hero {
-  background-color: peru;
   max-width: 455px;
   max-height: 347px;
-  /* width: 555px;
-  height: 347px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,12 +9,14 @@
 }
 
 .hero h1 {
+  font-family: "Roboto-Regular";
   align-self: flex-start;
   font-size: 54px;
   margin: 0;
 }
 
 .hero p {
+  font-family: "Roboto-Medium";
   font-size: 20px;
   line-height:26px;
   margin-bottom: 0px;
