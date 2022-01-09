@@ -1,15 +1,9 @@
-.navbar-menu_icon {
-  display: inline-block;
-  cursor: pointer;
-  padding-left: 3rem;
-}
-
 /* Menu transformation */
 .navbar-menu_element1, .navbar-menu_element2, .navbar-menu_element3 {
-  width: 35px;
-  height: 5px;
+  width: 22px;
+  height: 3px;
   background-color: white;
-  margin: 6px 0;
+  margin: 4px 0;
   transition: 0.4s;
 }
 
@@ -25,24 +19,31 @@
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   
-  padding: 2rem 6rem;
+  padding: 0rem 3rem;
 }
 
+.navbar-menu_icon {
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 3rem;
+}
+
+
 .navbar-links {
-  flex: 1;
   display: flex;
+  flex: 1;
   justify-content: space-between;
   align-items: center;
 }
 
-.navbar-links_logo {
+.navbar-links_logo p {
   font-family: "Roboto";
+  font-size: 26px;
 }
 
 .navbar-links_container {
@@ -55,8 +56,7 @@
   color: #fff;
   font-family: var("Roboto");
   font-weight: 500;
-  font-size: 26px;
-  line-height: 25px;
+  font-size: 18px;
   text-transform: capitalize;
 
   margin: 0 2rem;

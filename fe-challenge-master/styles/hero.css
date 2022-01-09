@@ -14,11 +14,11 @@
 .hero h1 {
   align-self: flex-start;
   font-size: 54px;
-
   margin: 0;
 }
 
 .hero p {
-  font-size: 22px;
+  font-size: 20px;
+  line-height:26px;
   margin-bottom: 0px;
 }
