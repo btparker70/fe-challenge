@@ -1,5 +1,5 @@
 .hero {
-  max-width: 455px;
+  width: 455px;
   max-height: 347px;
   display: flex;
   flex-direction: column;
