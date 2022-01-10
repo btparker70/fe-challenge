@@ -26,3 +26,26 @@ footer {
   padding: 0 0rem 1rem 1.5rem;
   transform: scale(1, 0.9);
 }
+
+@media screen and (max-width: 550px) {
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1vh;
+  }
+  .copyright p{
+    font-size: 16px;
+  }
+  .footer-links_container {
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+  }
+  .footer-links_container p {
+    padding: 0;
+  }
+}
