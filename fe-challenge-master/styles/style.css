@@ -2,12 +2,10 @@ body{
   min-height: 100vh;
   margin: 0;
 
-  /* display: grid;
-  grid-template-rows: auto 1fr auto; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("design/background.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../design/background.png");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -29,24 +27,24 @@ a {
 
 @font-face {
   font-family: "Roboto-Bold";
-  src: url("./design/roboto/Roboto-Bold.ttf");
+  src: url("../design/roboto/Roboto-Bold.ttf");
 }
 
 @font-face {
   font-family: "Roboto-Regular";
-  src: url("./design/roboto/Roboto-Regular.ttf");
+  src: url("../design/roboto/Roboto-Regular.ttf");
   font-style: bold;
 }
 
 @font-face {
   font-family: "Roboto-Thin";
-  src: url("./design/roboto/Roboto-Thin.ttf");
+  src: url("../design/roboto/Roboto-Thin.ttf");
   font-style: bold;
 }
 
 @font-face {
   font-family: "Roboto-Medium";
-  src: url("./design/roboto/Roboto-Medium.ttf");
+  src: url("../design/roboto/Roboto-Medium.ttf");
   font-style: bold;
 }
 
