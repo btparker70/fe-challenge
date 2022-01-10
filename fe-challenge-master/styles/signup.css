@@ -16,7 +16,7 @@
 
 .signup_title p {
   display: inline-block;
-  height: 25px;
+  min-height: 25px;
   font-family: "Roboto-Medium";
   letter-spacing: 0.1em;
   transform: scale(1, 0.9);
@@ -94,4 +94,11 @@ color: transparent;
 .signup_terms a {
   font-family: "Roboto-Regular";
   color: white;
+}
+
+@media screen and (max-width: 550px) { 
+  .signup_container {
+    width: 90vw;
+    height: auto;
+  }
 }
