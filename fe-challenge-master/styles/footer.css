@@ -18,13 +18,13 @@ footer {
 }
 
 .footer-links_container p {
-  display: inline-block;
-  min-height: 16px;
+  height: auto;
   font-family: "Roboto-Regular";
   font-size: 14px;
   letter-spacing: 0.1em;
   padding: 0 0rem 1rem 1.5rem;
   transform: scale(1, 0.9);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 550px) {

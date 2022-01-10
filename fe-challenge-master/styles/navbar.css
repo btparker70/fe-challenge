@@ -27,13 +27,6 @@
   padding: 0rem 3rem;
 }
 
-.navbar-menu_icon {
-  display: inline-block;
-  cursor: pointer;
-  padding-left: 3rem;
-}
-
-
 .navbar-links {
   display: flex;
   flex: 1;
@@ -88,6 +81,12 @@
 
 .show {
   display: flex;
+}
+
+.navbar-menu_icon {
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 3rem;
 }
 
 @media screen and (max-width: 1050px) {
