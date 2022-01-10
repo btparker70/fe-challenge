@@ -101,19 +101,6 @@
   }
 }
 
-/* @media screen and (max-width: 700px) {
-  .navbar-links_container {
-    display: none;
-  }
-  .navbar-links_logo{
-    font-size: 20px;
-  }
-
-  .navbar {
-    padding: 0rem 1rem;
-  }
-} */
-
 @media screen and (max-width: 550px) {
   .navbar-links_container {
     display: none;
